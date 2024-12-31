@@ -13,7 +13,7 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-rpm-ostree install screen firefox tmux vim gnome-terminal
+rpm-ostree install screen firefox tmux vim gnome-terminal fish
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
